@@ -18,7 +18,7 @@
 
         <!-- header bar -->
 
-        <div class="header">
+        <div class="header" id="Home-page">
 
             <div class="header-content">
 
@@ -30,10 +30,10 @@
                 </a>
 
                 <nav class="nav">
-                    <a href="#Home" class="nav-link">Home</a>
-                    <a href="#Features" class="nav-link">Features</a>
+                    <a href="#Home-page" class="nav-link">Home</a>
+                    <a href="#Features-Page" class="nav-link">Features</a>
                     <a href="#Pricing" class="nav-link">Pricing</a>
-                    <a href="#Blog" class="nav-link">Blog</a>
+                    <a href="#blogs-Page" class="nav-link">Blog</a>
                     <a href="#About" class="nav-link">About</a>
                 </nav>
 
@@ -126,7 +126,7 @@
 
         <!-- CARDS SECTION -->
 
-        <div class="Cards">
+        <div class="Cards" id="Features-Page">
 
             <div id="card-section">
 
@@ -194,7 +194,7 @@
 
         <!-- TESTIMONIAL SECTION -->
 
-        <div class="testimonial">
+        <div class="testimonial" id="blogs-Page">
 
             <div class="testimonial-content">
 
@@ -285,11 +285,11 @@
                         
                         <div id="email-signup">
                             <input type="email" placeholder="Enter your email" id="email" name="email" required >
-                            <a href="#send" class="send">Send</a>
+                            <a href="#send" class="send" id="send-button">Send</a>
                         </div>
 
                         <div id="p2">
-                            <p>By signing up to our newsletter you agree to our <a href="#Term of Service" id="Term-of-Service">Term of Service</a> and <a href="Privacy Policy" id="Term-of-Service">Privacy Policy</a>.</p>
+                            <p>By signing up to our newsletter you agree to our <a href="#Home-page" id="Term-of-Service">Term of Service</a> and <a href="Privacy Policy" id="Term-of-Service">Privacy Policy</a>.</p>
                         </div>
 
 
@@ -303,9 +303,9 @@
 
         <div class="footer">
 
-            <div class="footer-grid">
-                
-                <div class="footer-sidebar">
+            <div class="footer-content">
+
+                <div class="footer-left">
 
                     <a href="#logo" class="logo">
 
@@ -318,28 +318,35 @@
                 
                     <div id="images">
 
-                        <div id="image1">
-                            <img src="instagram.png" alt="">
-                        </div>
-                        <div id="image2">
-                            <img src="twitter.png" alt="">
-                        </div>
-                        <div id="image3">
+                        <a href="https://www.instagram.com" id="image1" >
+                            <img src="instagram.png" alt="" href="#home-page">
+                        </a>
+
+                        <a href="https://x.com/?lang=en"id="image2">
+                            <img src="twitter.svg" alt="">
+                        </a>
+
+                        <a href="https://in.linkedin.com/" id="image3">
                             <img src="linkdin.png" alt="">
-                        </div>
-                        <div id="image4">
+                        </a>
+
+                        <a href="https://github.com/" id="image4">
                             <img src="github.png" alt="">
-                     </div>
+                        </a>
 
                     </div>
-                </div>
+                
+            </div>
 
+            <div class="footer-grid">
             
-                <a href="#Term of Service" id="footer-nav">Term of Service</a>
+
                 <div id="Products">Products</div>
                 <div id="Comapany">Comapany</div>
                 <div id="Support">Support</div>
                 <div id="Legal">Legal</div>
+
+                <a href="#Term of Service" id="Terms">Term of Service</a>
                 <a href="#Overview" id="Overview">Overview</a>
                 <a href="#Solutions" id="Solutions">Solutions</a>
                 <a href="#Pricing" id="Pricing">Pricing</a>
@@ -353,20 +360,21 @@
                 <a href="#FAQ" id="FAQ">FAQ</a>
                 <a href="#Privacy-Policy" id="Privacy-Policy">Privacy-Policy</a>
                 <a href="#Cookie-settings" id="Cookie-settings">Cookie-settings</a>
-
+                <a href="#Blog" id="Blog">Blog</a>
                 
                 
             </div>
-
+            
         </div>
+
+    </div>
 
         <!-- FOOTER BASE -->
 
         <div class="footer-base">
 
-           <footer>&#9426;2025-Present StudySync. All rights reserved.</footer>
-            </div>
-
+           <footer id="footer-text">&#9426;2025-Present StudySync. All rights reserved.</footer>
+            
         </div>
 
     </body>
